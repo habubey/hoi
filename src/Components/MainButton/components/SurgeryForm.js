@@ -45,9 +45,10 @@ export default function BasicModal() {
           borderRadius: "40px",
           margin: "5px 0",
           backgroundColor: "#fdee9b",
-          color: "#777049",
-          width: "250px",
+          color: "black",
+          width: "150px",
           height: "50px",
+          fontSize: "10px"
         }}
       >
         {" "}

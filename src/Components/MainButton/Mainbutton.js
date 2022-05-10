@@ -10,7 +10,7 @@ export default function BasicButtonGroup() {
   return (
       <div> 
     <TextField 
-    style={{width:"450px"}}
+    style={{width:"350px"}}
       id="standard-name"
       label="Enter your surgery"
      select

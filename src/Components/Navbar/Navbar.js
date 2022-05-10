@@ -7,7 +7,7 @@ import story from "../../Images/hoi-health-hair-transplant.jpeg"
 
 const Navbar = () => {
   return (
-    <div className="navbar">
+    <div className="navbar" style={{height:"130px"}} >
       <img src={Logo} alt="HoiLogo" height={60} />
  <Reel buttonImage={logo1} contentImage={story}  />
  {/* <Reel buttonImage={logo1} contentImage={story}  />  bunlaarıı deü,itrsss*/}
