@@ -17,13 +17,13 @@ const Navbar = () => {
     <div className="navbar" style={{height:"110px"}} >
       <img src={Logo} alt="HoiLogo" height={60} />
 
-
+<div className="stories"> 
  <Reel buttonImage={logo1} contentImage={story}  /> 
  <Reel buttonImage={logo2} contentImage={story2}  />  
  <Reel buttonImage={logo3} contentImage={story3}  />  
  <Reel buttonImage={logo4} contentImage={story4}  />  
 
-
+</div>
 
 
 

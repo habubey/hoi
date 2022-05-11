@@ -25,7 +25,9 @@ export default function BasicModal({ buttonImage, contentImage }) {
   }
   return (
     <div>
-      <img alt="" src={buttonImage} onClick={handleOpen} width="40"></img>
+      <div style={{margin:"4px", border: "2px", borderColor:"GrayText", borderStyle:"ridge", borderRadius:"25px" }}>
+        <img alt="" src={buttonImage} onClick={handleOpen} width="50"></img>
+      </div>
       <Modal
         open={open}
         onClose={handleClose}

@@ -49,6 +49,11 @@
   text-align: end;
 }
 
+.stories{
+  justify-items: end;
+  display: flex;
 
+ 
+}
 
 
