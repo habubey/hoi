@@ -6,11 +6,17 @@ import TextField from "@mui/material/TextField";
 import MenuItem from '@mui/material/MenuItem';
 
 import SurgeryForm from "./components/SurgeryForm"
+import "./Mainbutton.css";
+
+
 export default function BasicButtonGroup() {
   return (
-      <div> 
+      <div  className="mainbutton"> 
+
+        
     <TextField 
-    style={{width:"350px"}}
+  
+    style={{width:"400px"}}
       id="standard-name"
       label="Enter your surgery"
      select

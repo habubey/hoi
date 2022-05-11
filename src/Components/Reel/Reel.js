@@ -1,8 +1,7 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
-
 import Modal from "@mui/material/Modal";
-
+import "./Reel.css"
 const style = {
   position: "absolute",
   top: "50%",
@@ -18,6 +17,7 @@ export default function BasicModal({ buttonImage, contentImage }) {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
+
   if (!buttonImage) {
     return <div></div>;
   }
@@ -30,10 +30,10 @@ export default function BasicModal({ buttonImage, contentImage }) {
           borderColor: "GrayText",
           borderStyle: "ridge",
           borderRadius: "45px",
-         
+      
         }}
       >
-        <img alt="" src={buttonImage} onClick={handleOpen} width="70"></img>
+        <img className="buttonup" alt="" src={buttonImage} onClick={handleOpen} width="75"></img>
       </div>
       <Modal
         open={open}
