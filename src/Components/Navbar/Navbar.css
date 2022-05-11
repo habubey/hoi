@@ -55,19 +55,19 @@
   display: flex;
 }
 
-@media (min-width: 360px) and (max-width: 702px) {
+@media (min-width: 310px) and (max-width: 702px) {
   .navbar {
   height: 20px;
 }
   .stories{
     position: absolute;
     margin-top: 200px;
-    margin-left: 20px;
-    padding: 9px;
+right: 3px;
+   
   }
  .buttonbar{
   position: absolute;
-  margin-left: 170px;
+  margin-left:200px;
   margin-bottom: 20px;
  }
 .button1{
