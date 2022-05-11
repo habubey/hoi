@@ -4,16 +4,30 @@ import "../Navbar/Navbar.css";
 import Reel from "../Reel/Reel"
 import logo1 from "../../Images/hoisaglik.png";
 import story from "../../Images/hoi-health-hair-transplant.jpeg"
+import logo2 from "../../Images/reel2.png";
+import story2 from "../../Images/story2.jpeg"
+import logo3 from "../../Images/reel3.png";
+import story3 from "../../Images/story3.jpeg"
+import logo4 from "../../Images/reel4.png";
+import story4 from "../../Images/story4.jpeg"
+
 
 const Navbar = () => {
   return (
-    <div className="navbar" style={{height:"130px"}} >
+    <div className="navbar" style={{height:"110px"}} >
       <img src={Logo} alt="HoiLogo" height={60} />
- <Reel buttonImage={logo1} contentImage={story}  />
- {/* <Reel buttonImage={logo1} contentImage={story}  />  bunlaarıı deü,itrsss*/}
 
-      <div>
 
+ <Reel buttonImage={logo1} contentImage={story}  /> 
+ <Reel buttonImage={logo2} contentImage={story2}  />  
+ <Reel buttonImage={logo3} contentImage={story3}  />  
+ <Reel buttonImage={logo4} contentImage={story4}  />  
+
+
+
+
+
+      <div className="buttonbar">
 
 
 
