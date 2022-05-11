@@ -15,7 +15,7 @@ import story4 from "../../Images/story4.jpeg"
 const Navbar = () => {
   return (
     <div className="navbar" style={{height:"110px"}} >
-      <img src={Logo} alt="HoiLogo" height={60} />
+      <img src={Logo} alt="HoiLogo" height={75} />
 
 <div className="stories"> 
  <Reel buttonImage={logo1} contentImage={story}  /> 

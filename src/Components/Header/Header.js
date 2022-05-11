@@ -11,10 +11,12 @@ const Header = () => {
           Get a Free Quote from one of the best clinics and surgeons with no
           hussle!
         </h5>
+        
       </div>
       <div className="main">
         <MainButton />
-
+        <h5 className="mobiles">Get a Free Quote from one of the best clinics and surgeons with no
+          hussle!</h5>
         <div className="subtitle">
           <h6>• No Credit Card</h6>
           <h6>• Free Quote in a Minutes </h6>

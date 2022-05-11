@@ -12,8 +12,6 @@ const style = {
   bgcolor: "background.paper",
   border: "2px solid #000",
   boxShadow: 24,
-
- 
 };
 
 export default function BasicModal({ buttonImage, contentImage }) {
@@ -25,8 +23,17 @@ export default function BasicModal({ buttonImage, contentImage }) {
   }
   return (
     <div>
-      <div style={{margin:"4px", border: "2px", borderColor:"GrayText", borderStyle:"ridge", borderRadius:"25px" }}>
-        <img alt="" src={buttonImage} onClick={handleOpen} width="50"></img>
+      <div
+        style={{
+          margin: "4px",
+          border: "2px",
+          borderColor: "GrayText",
+          borderStyle: "ridge",
+          borderRadius: "45px",
+         
+        }}
+      >
+        <img alt="" src={buttonImage} onClick={handleOpen} width="70"></img>
       </div>
       <Modal
         open={open}
@@ -35,7 +42,11 @@ export default function BasicModal({ buttonImage, contentImage }) {
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
-          <img alt="" src={contentImage} style={{width:"100%", height:"100%"}} ></img>
+          <img
+            alt=""
+            src={contentImage}
+            style={{ width: "100%", height: "100%" }}
+          ></img>
         </Box>
       </Modal>
     </div>

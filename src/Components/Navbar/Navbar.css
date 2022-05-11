@@ -1,6 +1,7 @@
 .navbar {
   position: sticky;
   top: 0;
+ 
 }
 .button1 {
   position: relative;
@@ -23,7 +24,7 @@
   cursor: pointer;
   user-select: none;
   letter-spacing: 0.02em;
-  text-align: end;
+  text-align: center;
   margin-right: 2px;
 }
 
@@ -52,8 +53,29 @@
 .stories{
   justify-items: end;
   display: flex;
+}
 
- 
+@media (min-width: 360px) and (max-width: 702px) {
+  .navbar {
+  height: 20px;
+}
+  .stories{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 20px;
+    padding: 9px;
+  }
+ .buttonbar{
+  position: absolute;
+  margin-left: 170px;
+  margin-bottom: 20px;
+ }
+.button1{
+  width: 90px;
+  text-align: center;
 }
 
 
+
+
+}
