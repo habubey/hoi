@@ -52,10 +52,11 @@ export default function BasicModal() {
         }}
         sx={{
           width: "150px",
-          fontSize: "10px",
+          fontSize: "14px",
           '@media screen and (max-width: 720px)': {
             width: "100px",
-            fontSize: "9px",
+            fontSize: "11px",
+            fontWeight: "bold"
           },
         }}
       >
