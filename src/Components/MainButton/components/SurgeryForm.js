@@ -37,8 +37,9 @@ export default function BasicModal() {
   //   next e bastık falsu true yaptık
 
   return (
-    <div>
+    <div className="enterbutton">
       <Button
+        
         onClick={handleOpen}
         variant="contained"
         style={{
@@ -46,9 +47,16 @@ export default function BasicModal() {
           margin: "5px 0",
           backgroundColor: "#fdee9b",
           color: "black",
-          width: "150px",
+          
           height: "50px",
-          fontSize: "10px"
+        }}
+        sx={{
+          width: "150px",
+          fontSize: "10px",
+          '@media screen and (max-width: 720px)': {
+            width: "100px",
+            fontSize: "9px",
+          },
         }}
       >
         {" "}

@@ -9,7 +9,7 @@ const style = {
   transform: "translate(-50%, -50%)",
   width: 400,
   bgcolor: "background.paper",
-  border: "2px solid #000",
+
   boxShadow: 24,
 };
 
@@ -23,17 +23,18 @@ export default function BasicModal({ buttonImage, contentImage }) {
   }
   return (
     <div>
-      <div
+      <div className="borderGrad"
         style={{
           margin: "4px",
           border: "2px",
-          borderColor: "GrayText",
-          borderStyle: "ridge",
-          borderRadius: "45px",
+          
+         
+          borderRadius: "65px",
+          
       
         }}
       >
-        <img className="buttonup" alt="" src={buttonImage} onClick={handleOpen} width="75"></img>
+        <img className="buttonup" alt="" src={buttonImage} onClick={handleOpen} ></img>
       </div>
       <Modal
         open={open}

@@ -1,6 +1,27 @@
+.borderGrad{
+  max-width: 250px;
+  padding: 0rem;
+  position: relative;
+  background: radial-gradient(circle, rgba(126,126,126,1) 42%, rgb(44, 44, 44) 100%);
+  padding: 3px;
+}
 
-@media (min-width: 300px) and (max-width: 702px) {
+.buttonup{
+  width: 40px;
+}
+
+@media (min-width: 730px)  {
   .buttonup {
-    width:50px;
+    width:75px;
 
 }};
+
+
+@media  (max-width: 300px) and (max-width: 720px) {
+  .buttonup {
+    width:45px !important;
+
+}};
+
+
+

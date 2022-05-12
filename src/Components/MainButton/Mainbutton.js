@@ -15,11 +15,18 @@ export default function BasicButtonGroup() {
 
         
     <TextField 
-  
-    style={{width:"400px"}}
+  className="textfield"
+  sx={{
+   
+    '@media screen and (max-width: 720px)': {
+      
+      fontSize: "2px",
+    },
+  }}
       id="standard-name"
       label="Enter your surgery"
      select
+    
       InputProps={{
         endAdornment: (
           <SurgeryForm/>

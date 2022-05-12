@@ -6,7 +6,8 @@ const Header = () => {
   return (
     <div>
       <div className="text" style={{marginTop:"130px"}}>
-        <h1 style={{fontSize:"70px", fontFamily:"Poppins"}} >Premium Health Tourism </h1>
+        
+        <h1 className="mainTitle" style={{ fontFamily:"Poppins"}} >Premium Health Tourism </h1>
         <h5 style={{fontSize:"20px", fontFamily:"Poppins"}}>
           Get a Free Quote from one of the best clinics and surgeons with no
           hussle!

@@ -85,6 +85,8 @@ ul li {
 }
 
 @media (min-width: 300px) and (max-width: 702px) {
+
+ 
   h5 {
     display: none;
   }
